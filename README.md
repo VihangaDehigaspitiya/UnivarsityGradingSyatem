@@ -1,1 +1,1 @@
-# UnivarsityGradingSyatem
+# UniversityGradingSystem
