@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="499.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursework2.PreliminaryController">
+   <children>
+      <Text layoutX="165.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preliminary Modules">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Label layoutX="21.0" layoutY="102.0" text="SC 411">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="145.0" text="SC 412">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="183.0" text="SC 414">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="217.0" text="SC 415">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="251.0" text="SC 416">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="287.0" text="SC 417">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="327.0" text="SC 418">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="183.0" text="Introduction to Computer Architecture">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="217.0" text="Programming and electronics laboratories">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="251.0" text="Seminar">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="287.0" text="Data structures and Algorithms">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="327.0" text="Programming techniques">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="106.0" text="Introduction to Computer Science">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="145.0" text="Introduction to theory of computation">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtSC411" layoutX="448.0" layoutY="108.0" prefHeight="25.0" prefWidth="53.0" promptText="Marks" />
+      <TextField fx:id="txtSC412" layoutX="448.0" layoutY="147.0" prefHeight="25.0" prefWidth="53.0" promptText="Marks" />
+      <TextField fx:id="txtSC414" layoutX="448.0" layoutY="185.0" prefHeight="25.0" prefWidth="53.0" promptText="Marks" />
+      <TextField fx:id="txtSC415" layoutX="448.0" layoutY="219.0" prefHeight="25.0" prefWidth="53.0" promptText="Marks" />
+      <TextField fx:id="txtSC417" layoutX="448.0" layoutY="289.0" prefHeight="25.0" prefWidth="53.0" promptText="Marks" />
+      <TextField fx:id="txtSC416" layoutX="448.0" layoutY="253.0" prefHeight="25.0" prefWidth="53.0" promptText="Marks" />
+      <TextField fx:id="txtSC418" layoutX="448.0" layoutY="329.0" prefHeight="25.0" prefWidth="53.0" promptText="Marks" />
+      <Label layoutX="21.0" layoutY="70.0" text="Module Code" />
+      <Label layoutX="361.0" layoutY="70.0" text="80% Attendence" />
+      <CheckBox fx:id="SC411a" layoutX="386.0" layoutY="107.0" mnemonicParsing="false" />
+      <CheckBox fx:id="SC418a" layoutX="386.0" layoutY="332.0" mnemonicParsing="false" />
+      <CheckBox fx:id="SC412a" layoutX="386.0" layoutY="150.0" mnemonicParsing="false" />
+      <CheckBox fx:id="SC414a" layoutX="386.0" layoutY="188.0" mnemonicParsing="false" />
+      <CheckBox fx:id="SC415a" layoutX="386.0" layoutY="222.0" mnemonicParsing="false" />
+      <CheckBox fx:id="SC416a" layoutX="386.0" layoutY="256.0" mnemonicParsing="false" />
+      <CheckBox fx:id="SC417a" layoutX="386.0" layoutY="292.0" mnemonicParsing="false" />
+      <Button fx:id="btnEnter" layoutX="244.0" layoutY="430.0" mnemonicParsing="false" onAction="#PreliminaryEnter" prefHeight="40.0" prefWidth="112.0" text="ENTER" />
+      <Button fx:id="btnNext" layoutX="501.0" layoutY="405.0" mnemonicParsing="false" onAction="#NextSemester" prefHeight="25.0" prefWidth="72.0" text="NEXT" />
+      <Label fx:id="lblSC411" layoutX="548.0" layoutY="108.0" text="........." />
+      <Label fx:id="lblSC412" layoutX="548.0" layoutY="147.0" text="........." />
+      <Label fx:id="lblSC414" layoutX="548.0" layoutY="185.0" text="........." />
+      <Label fx:id="lblSC415" layoutX="548.0" layoutY="219.0" text="........." />
+      <Label fx:id="lblSC416" layoutX="548.0" layoutY="253.0" text="........." />
+      <Label fx:id="lblSC417" layoutX="548.0" layoutY="292.0" text="........." />
+      <Label fx:id="lblSC418" layoutX="548.0" layoutY="332.0" text="........." />
+      <Label fx:id="lblInvalid" layoutX="285.0" layoutY="386.0" text="        " textFill="#f21616">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

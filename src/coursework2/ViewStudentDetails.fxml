@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="419.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursework2.ViewStudentDetailsController">
+   <children>
+      <Label layoutX="134.0" layoutY="47.0" text="Enter Student ID">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="111.0" text="First Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="146.0" text="Last Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="219.0" text="Age">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="183.0" text="Student ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="295.0" text="GPA">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="260.0" text="Credits">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="329.0" text="Degree Course">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFirstName" layoutX="293.0" layoutY="111.0" text="................">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblLastName" layoutX="293.0" layoutY="146.0" text="................">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblStuID" layoutX="293.0" layoutY="183.0" text="................">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAge" layoutX="293.0" layoutY="219.0" text="................">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCredits" layoutX="293.0" layoutY="260.0" text="................">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblGPA" layoutX="293.0" layoutY="295.0" text="................">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDegree" layoutX="293.0" layoutY="329.0" text="................">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSearchD" layoutX="423.0" layoutY="42.0" mnemonicParsing="false" onAction="#ViewDeatils" text="Search">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBack" layoutX="516.0" layoutY="367.0" mnemonicParsing="false" onAction="#actionBackPage" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtStuID" layoutX="278.0" layoutY="45.0" prefHeight="25.0" prefWidth="111.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursework2.EnterStudentDetailsController">
+   <children>
+      <Text layoutX="211.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Details" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Label layoutX="121.0" layoutY="113.0" text="First Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="160.0" text="Last Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="260.0" text="Age">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="209.0" text="Student ID">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtFirstname" layoutX="289.0" layoutY="111.0" />
+      <TextField fx:id="txtLastname" layoutX="289.0" layoutY="158.0" />
+      <TextField fx:id="txtStuID" layoutX="289.0" layoutY="207.0" />
+      <TextField fx:id="txtAge" layoutX="289.0" layoutY="258.0" />
+      <Button fx:id="btnNext" layoutX="455.0" layoutY="321.0" mnemonicParsing="false" onAction="#StoreDetails" prefHeight="33.0" prefWidth="72.0" text="Next" />
+      <Label fx:id="lblInvalid" layoutX="255.0" layoutY="329.0" text="          " textFill="#ee3636">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

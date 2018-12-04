@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="573.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursework2.ViewModuleMarksController">
+   <children>
+      <TabPane layoutY="110.0" prefHeight="462.0" prefWidth="624.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Semester 1">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="239.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Compulsary Modules">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="247.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Optional Modules">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Label layoutX="13.0" layoutY="62.0" text="SC531">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="13.0" layoutY="89.0" text="SC535">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="13.0" layoutY="119.0" text="SC537">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="13.0" layoutY="150.0" text="SC538">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="356.0" layoutY="62.0" text="Advanced topics in computer graphics *">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="57.0" layoutY="150.0" text="Artificial Intelligence *">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="55.0" layoutY="119.0" text="Computer Networks &amp; Distributed systems *">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="57.0" layoutY="89.0" text="Operating system design *">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="55.0" layoutY="62.0" text="Database systems *">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="312.0" layoutY="62.0" text="SC539">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC531" layoutX="264.0" layoutY="62.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC535" layoutX="265.0" layoutY="89.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC537" layoutX="265.0" layoutY="119.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC538" layoutX="264.0" layoutY="150.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC539" layoutX="556.0" layoutY="62.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="312.0" layoutY="248.0" text="SC543">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="312.0" layoutY="224.0" text="SC542">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="365.0" text="SC541">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="336.0" text="SC540">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="306.0" text="SC536">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="358.0" layoutY="248.0" text="Object Oriented Analysis and Design">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="358.0" layoutY="224.0" text="Introduction to Wireless and Mobile Systems">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="59.0" layoutY="365.0" text="Programming Web Applications">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="61.0" layoutY="336.0" text="Web Servers and Technologies">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="63.0" layoutY="307.0" text="Graph theory">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="60.0" layoutY="278.0" text="Programming language design and compilers">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="278.0" text="SC534">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="61.0" layoutY="248.0" text="Introduction to parallel computing">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="60.0" layoutY="224.0" text="Combinatorial mathematics">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="248.0" text="SC533">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="224.0" text="SC532">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC533" layoutX="273.0" layoutY="248.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC534" layoutX="273.0" layoutY="278.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC536" layoutX="271.0" layoutY="307.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC540" layoutX="271.0" layoutY="336.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC541" layoutX="270.0" layoutY="365.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC532" layoutX="274.0" layoutY="224.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC543" layoutX="574.0" layoutY="249.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC542" layoutX="574.0" layoutY="224.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+          <Tab text="Semester 2">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="234.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Compulsary Modules">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Label layoutX="64.0" layoutY="34.0" text="Software engineering *">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="64.0" layoutY="60.0" text="Special topics in Computer Science *">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="64.0" layoutY="87.0" text="Laboratory work *">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="356.0" layoutY="40.0" text="Seminar *">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="356.0" layoutY="66.0" text="Industrial Project (six months duration)*">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="34.0" text="SC546">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="60.0" text="SC554">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="87.0" text="SC555">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="315.0" layoutY="40.0" text="SC597">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="315.0" layoutY="66.0" text="SC598">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Text layoutX="228.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Optional Modules">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Label layoutX="65.0" layoutY="162.0" text="Computer architecture">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="65.0" layoutY="196.0" text="Systems analysis/Systems engineering">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="65.0" layoutY="229.0" text="Artificial Neural Networks">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="66.0" layoutY="260.0" text="Linear programming">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="66.0" layoutY="292.0" text="Communication networks for computers">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="67.0" layoutY="330.0" text="Digital image processing">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="66.0" layoutY="364.0" text="Project management">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="357.0" layoutY="330.0" text="Computer Vision">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="355.0" layoutY="196.0" text="Analysis of Communication Networks">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="358.0" layoutY="229.0" text="Cryptography and Network Security">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="358.0" layoutY="260.0" text="Multimedia Systems">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="357.0" layoutY="293.0" text="Multimedia Practical">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="358.0" layoutY="162.0" text="Data mining Techniques">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="162.0" text="SC547">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="196.0" text="SC548">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="229.0" text="SC549">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="260.0" text="SC550">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="292.0" text="SC551">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="309.0" layoutY="229.0" text="SC558">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="309.0" layoutY="196.0" text="SC557">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="309.0" layoutY="162.0" text="SC556">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="363.0" text="SC553">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="330.0" text="SC552">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="309.0" layoutY="260.0" text="SC559">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="309.0" layoutY="292.0" text="SC560">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="309.0" layoutY="330.0" text="SC561">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC546" layoutX="244.0" layoutY="34.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC554" layoutX="244.0" layoutY="60.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC555" layoutX="244.0" layoutY="87.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC597" layoutX="548.0" layoutY="40.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC598" layoutX="548.0" layoutY="66.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC547" layoutX="262.0" layoutY="162.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC548" layoutX="262.0" layoutY="196.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC549" layoutX="262.0" layoutY="229.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC550" layoutX="262.0" layoutY="260.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC551" layoutX="262.0" layoutY="293.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC552" layoutX="262.0" layoutY="330.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC553" layoutX="262.0" layoutY="364.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC556" layoutX="539.0" layoutY="162.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC557" layoutX="539.0" layoutY="196.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC558" layoutX="539.0" layoutY="229.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC559" layoutX="539.0" layoutY="260.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC560" layoutX="539.0" layoutY="293.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC561" layoutX="539.0" layoutY="330.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="315.0" layoutY="93.0" text="SC599">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblSC599" layoutX="548.0" layoutY="93.0" text="........">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="361.0" layoutY="93.0" text="Research Project (one year duration)*">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Preliminary">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="215.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preliminary Modules">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Label layoutX="134.0" layoutY="77.0" text="Introduction to Computer Science">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="131.0" layoutY="120.0" text="Introduction to theory of computation">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="130.0" layoutY="164.0" text="Introduction to Computer Architecture">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="130.0" layoutY="206.0" text="Programming and electronics laboratories">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="130.0" layoutY="250.0" text="Seminar">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="35.0" layoutY="77.0" text="SC411">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="35.0" layoutY="120.0" text="SC412">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="34.0" layoutY="164.0" text="SC414">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="34.0" layoutY="206.0" text="SC415">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="34.0" layoutY="250.0" text="SC416">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="134.0" layoutY="349.0" text="Programming techniques">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="34.0" layoutY="349.0" text="SC418">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="txtSC411" layoutX="458.0" layoutY="77.0" text="........">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="txtSC417" layoutX="458.0" layoutY="299.0" text="........">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="txtSC412" layoutX="458.0" layoutY="120.0" text="........">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="txtSC418" layoutX="458.0" layoutY="349.0" text="........">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="txtSC415" layoutX="458.0" layoutY="206.0" text="........">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="txtSC416" layoutX="458.0" layoutY="250.0" text="........">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="34.0" layoutY="299.0" text="SC417">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="txtSC414" layoutX="458.0" layoutY="164.0" text="........">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="131.0" layoutY="299.0" text="Data structures and Algorithms">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="btnBack1" alignment="CENTER" layoutX="514.0" layoutY="374.0" mnemonicParsing="false" onAction="#actionBackPage" prefHeight="29.0" prefWidth="68.0" text="Back">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Label layoutX="138.0" layoutY="61.0" prefHeight="17.0" prefWidth="131.0" text="Enter Student ID    :    ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtStuID" layoutX="264.0" layoutY="57.0" promptText="Student ID" />
+      <Button fx:id="btnSearch" layoutX="473.0" layoutY="58.0" mnemonicParsing="false" onAction="#ShowModuleMarks" text="Search">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
